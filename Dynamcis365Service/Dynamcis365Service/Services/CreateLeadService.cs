@@ -14,7 +14,6 @@ namespace Dynamcis365Service.Services
     {
         #region Declarartions
         IOrganizationService service;
-
         string ORGURI = WebConfigurationManager.AppSettings["ORGURI"];
         string USERNAME = WebConfigurationManager.AppSettings["USERNAME"];
         string PASSWORD = WebConfigurationManager.AppSettings["PASSWORD"];
